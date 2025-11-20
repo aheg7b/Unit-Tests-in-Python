@@ -17,10 +17,10 @@ def is_valid_date(date_str:str)->bool:
     
 def main():
     is_valid_symbol(input("Please enter a stock symbol: "))
-    input("Please enter chart type: ")
-    input("Please enter time series: ")
-    input("Please enter start date: ")
-    input("Please enter end date: ")
+    is_valid_chat_type(input("Please enter chart type: "))
+    is_valid_time_series(input("Please enter time series: "))
+    is_valid_date(input("Please enter start date: "))
+    is_valid_date(input("Please enter end date: "))
 
 if __name__ == "__main__":
     main()
