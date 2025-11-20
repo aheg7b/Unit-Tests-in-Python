@@ -16,8 +16,11 @@ def is_valid_date(date_str:str)->bool:
         return False
     
 def main():
-    input("Please enter a stock symbol: ")
+    is_valid_symbol(input("Please enter a stock symbol: "))
     input("Please enter chart type: ")
     input("Please enter time series: ")
     input("Please enter start date: ")
     input("Please enter end date: ")
+
+if __name__ == "__main__":
+    main()
