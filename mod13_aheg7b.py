@@ -1,5 +1,5 @@
 def is_valid_symbol(symbol: str) -> bool:
-    return
+    return symbol.isalpha() and symbol.isupper() and 1<= len(symbol) <=7
 
 def is_valid_chat_type(chat_tpe :str) -> bool:
     return
