@@ -14,3 +14,10 @@ def is_valid_date(date_str:str)->bool:
         return True
     except ValueError:
         return False
+    
+def main():
+    input("Please enter a stock symbol: ")
+    input("Please enter chart type: ")
+    input("Please enter time series: ")
+    input("Please enter start date: ")
+    input("Please enter end date: ")
