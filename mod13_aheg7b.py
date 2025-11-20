@@ -1,3 +1,4 @@
+from datetime import datetime
 def is_valid_symbol(symbol: str) -> bool:
     return symbol.isalpha() and symbol.isupper() and 1<= len(symbol) <=7
 
